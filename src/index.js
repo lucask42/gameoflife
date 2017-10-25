@@ -227,7 +227,7 @@ class Main extends React.Component {
         />
         <h2>Generations: {this.state.generations}</h2>
         <h2>Speed: {25 / this.speed}</h2>
-        <p>Made with <3 by Lucas Kellner 2017</p>
+        <p>Made with &#60;3 by Lucas Kellner 2017</p>
       </div>
     );
   }
