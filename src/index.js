@@ -209,7 +209,7 @@ class Main extends React.Component {
   render() {
     return (
       <div>
-        <h1>The Game of Life</h1>
+        <h1>Conway&%39;s Game of Life</h1>
         <Buttons
           playButton={this.playButton}
           pauseButton={this.pauseButton}
@@ -227,6 +227,7 @@ class Main extends React.Component {
         />
         <h2>Generations: {this.state.generations}</h2>
         <h2>Speed: {25 / this.speed}</h2>
+        <p>Made with <3 by Lucas Kellner 2017</p>
       </div>
     );
   }
