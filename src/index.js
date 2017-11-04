@@ -209,7 +209,7 @@ class Main extends React.Component {
   render() {
     return (
       <div>
-        <h1>Conway&%39;s Game of Life</h1>
+        <h1>Conway&#39;s Game of Life</h1>
         <Buttons
           playButton={this.playButton}
           pauseButton={this.pauseButton}
